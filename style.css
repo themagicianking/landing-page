@@ -5,6 +5,7 @@ body {
     align-items: stretch;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    height: 100vh;
 }
 
 .header, .intro, .info, .quote, .signup {
@@ -12,6 +13,16 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.intro, .info, .quote, .signup {
+    flex-grow: 1;
+}
+
+.header, .footer {
+    flex-basis: 10%;
 }
 
 .header, .intro, .footer {
