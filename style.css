@@ -3,13 +3,50 @@ body {
     flex-flow: column nowrap;
     justify-content: stretch;
     align-items: stretch;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
-.header, .intro, .info, .quote {
+.header, .intro, .info, .quote, .signup {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.header, .intro, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secondary, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .footer {
@@ -19,16 +56,14 @@ body {
     align-items: center;
 }
 
-/*
-.intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-} */
-
 ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    gap: 10px;
+}
+
+button, .signup {
+    background-color: #3882F6;
+    color:#E5E7EB;
 }
