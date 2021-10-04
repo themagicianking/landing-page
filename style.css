@@ -70,10 +70,37 @@ body {
     color: #E5E7EB;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .info-header {
     font-size: 36px;
     font-weight: 800px;
     color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pic {
+    width:150px;
+    height:auto;
+    border-radius: 10%;
+    border: 2px solid #3882F6;
+}
+
+.infographic {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.graphic {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
