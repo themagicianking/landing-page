@@ -33,6 +33,8 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    align-self: center;
+    padding:10px;
 }
 
 .awesome {
