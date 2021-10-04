@@ -37,6 +37,10 @@ body {
     padding:10px;
 }
 
+.image {
+    padding-left: 20px;
+}
+
 .awesome {
     font-size: 48px;
     font-weight: 800;
@@ -79,4 +83,8 @@ ul {
 button, .signup {
     background-color: #3882F6;
     color:#E5E7EB;
+    border-radius: 12px;
+    border: 1px solid white;
+    padding: 8px;
+    margin: 5px;
 }
