@@ -8,6 +8,7 @@ A landing page practicing flexbox for The Odin Project.
  <li>Unsplash and Pixabay have a neat little feature where it automatically generates a link with credit for their photos.</li>
  <li>Elements like paragraph and header have default settings for margin and padding and those can mess you up when you're trying to make them behave inside your flexbox containers.</li>
  <li>Font weight does not work on all fonts.</li>
+ <br>
 
 Photo credits:
 Header logo drawing by <a href="https://pixabay.com/users/monstreh-637659/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3296033">Анна Куликова</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3296033">Pixabay</a>
